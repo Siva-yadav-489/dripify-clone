@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Campaigns from "./components/Campaigns";
+import Companies from "./components/Companies";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Insights from "./components/Insights";
+import IntegrateTools from "./components/IntegrateTools";
+import Personalize from "./components/Personalize";
+import Reviews from "./components/Reviews";
+import SignupAtBottom from "./components/SignupAtBottom";
+import TestMessage from "./components/TestMessage";
+import WorksBestFor from "./components/WorksBestFor";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mx-5 max-sm:mx-2">
+      <Header />
+      <Hero />
+      <Companies />
+      <Campaigns />
+      <Insights />
+      <Personalize />
+      <TestMessage />
+      <WorksBestFor />
+      <IntegrateTools />
+      <Reviews />
+      <SignupAtBottom />
+      <Footer />
     </div>
   );
 }

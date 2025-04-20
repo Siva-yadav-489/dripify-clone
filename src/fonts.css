@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "ThicboiThin";
+  src: url("../public/fonts/THICCCBOI-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThicboiLight";
+  src: url("../public/fonts/THICCCBOI-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThicboiRegular";
+  src: url("../public/fonts/THICCCBOI-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThicboiMedium";
+  src: url("../public/fonts/THICCCBOI-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThicboiSemibold";
+  src: url("../public/fonts/THICCCBOI-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThicboiBold";
+  src: url("../public/fonts/THICCCBOI-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThicboiExtraBold";
+  src: url("../public/fonts/THICCCBOI-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ThicboiThicc";
+  src: url("../public/fonts/THICCCBOI-ThicccAF.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
