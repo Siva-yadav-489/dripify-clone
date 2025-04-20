@@ -6,7 +6,7 @@ const Companies = () => {
       <p className="font-thicboi-medium text-base my-7 text-center text-stone-500">
         Driving sales for 40,000+ most innovative companies worldwide
       </p>
-      <div className="flex max-md:relative max-md:overflow-x-hidden">
+      <div className="max-md:flex max-md:relative max-md:overflow-x-hidden">
         <div className="flex justify-between max-md:animate-marquee max-md:whitespace-nowrap">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -331,7 +331,7 @@ const Companies = () => {
             ></path>
           </svg>
         </div>
-        <div className="flex absolute top-0 justify-between max-md:animate-marquee2 max-md:whitespace-nowrap">
+        <div className="flex md:hidden max-md:absolute max-md:top-0 justify-between max-md:animate-marquee2 max-md:whitespace-nowrap">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="103"
@@ -656,7 +656,7 @@ const Companies = () => {
           </svg>
         </div>
       </div>
-      <div className="flex max-md:relative max-md:overflow-x-hidden">
+      <div className="max-md:flex  max-md:relative max-md:overflow-x-hidden">
         <div className="flex justify-between max-md:animate-marqueeReverse max-md:whitespace-nowrap">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -1122,7 +1122,7 @@ const Companies = () => {
             ></path>
           </svg>
         </div>
-        <div className="flex absolute top-0 justify-between max-md:animate-marquee2Reverse max-md:whitespace-nowrap">
+        <div className="flex md:hidden max-md:absolute max-md:top-0 justify-between max-md:animate-marquee2Reverse max-md:whitespace-nowrap">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="103"
