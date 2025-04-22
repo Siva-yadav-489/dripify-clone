@@ -7,7 +7,7 @@ const WorksBestFor = () => {
     <div className="2xl:mx-64 xl:mx-40 max-xl:mx-5 my-10">
       <Headings text={["Works best for"]} />
       <div className="grid grid-cols-5 gap-5 ">
-        <div className="col-span-3 max-md:col-span-5 flex justify-between bg-[#eefcf0] p-10  rounded-xl">
+        <div className="col-span-3 max-md:col-span-5 flex max-sm:flex-wrap justify-between bg-[#eefcf0] p-10  rounded-xl">
           <div className="flex flex-col  items-start justify-start">
             <img
               width="40"
@@ -19,7 +19,7 @@ const WorksBestFor = () => {
             <p className="text-3xl font-thicboi-semibold mb-8">
               Business owners
             </p>
-            <p className="text-base font-thicboi-medium text-stone-500 mb-32">
+            <p className="text-base font-thicboi-medium text-stone-500 mb-32 max-sm:mb-5">
               Running a business is not that easy these
               <br />
               days! Put your sales prospecting on
@@ -51,7 +51,7 @@ const WorksBestFor = () => {
           <img
             alt=""
             src="https://dripify.io/wp-content/uploads/2025/02/business-owners.png"
-            className="w-64 h-fit"
+            className="w-64 h-fit max-sm:mt-2"
           />
         </div>
         <div className="col-span-2 max-md:col-span-5 flex flex-col  items-start bg-[#ffefeb] p-10 rounded-xl">
@@ -122,7 +122,7 @@ const WorksBestFor = () => {
             </svg>
           </p>
         </div>
-        <div className="col-span-3 max-md:col-span-5 flex justify-between bg-[#ffebf2] p-10 rounded-xl">
+        <div className="col-span-3 max-md:col-span-5 flex max-sm:flex-wrap justify-between bg-[#ffebf2] p-10 rounded-xl">
           <div className="flex flex-col  items-start">
             <img
               width="40"
@@ -134,7 +134,7 @@ const WorksBestFor = () => {
             <p className="text-3xl font-thicboi-semibold mb-8">
               Business owners
             </p>
-            <p className="text-base font-thicboi-medium text-stone-500 mb-32">
+            <p className="text-base font-thicboi-medium text-stone-500 mb-32 max-sm:mb-5">
               LinkedIn has already become the hottest career <br />
               development site on the globe. With Dripify, you
               <br />
@@ -164,7 +164,7 @@ const WorksBestFor = () => {
           <img
             alt=""
             src="https://dripify.io/wp-content/uploads/2025/03/recrutier.png"
-            className="w-52 h-fit"
+            className="w-52 h-fit max-sm:mt-2"
           />
         </div>
       </div>

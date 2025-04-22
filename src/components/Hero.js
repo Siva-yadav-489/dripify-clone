@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="rounded-3xl bg-[#6349f8] pb-40 mb-48">
+    <div className="flex flex-col items-center rounded-3xl bg-[#6349f8] pb-40 mb-48">
       <Navbar />
       <div className="flex justify-center mb-10">
         <img
@@ -21,15 +21,20 @@ const Hero = () => {
         Reach hundreds of prospects per day on LinkedIn & through <br /> Email
         and close more deals on complete autopilot
       </p>
-      <div className="flex max-md:flex-wrap max-md:w-[90%]  p-2 bg-white rounded-xl w-[30%] items-center justify-between justify-self-center">
+      <div className="flex max-md:w-[90%] max-xl:w-[40%]  p-2 bg-white rounded-xl w-[30%] items-center justify-between ">
         <input
           type="email"
           placeholder="Enter your work email"
           className="text-stone-900 font-thicboi-regular p-3"
         />
-        <Button text={"Start now"} colors={"text-white bg-black"} />
+        <Button
+          text={"Start now"}
+          colors={
+            "text-white bg-black max-[400px]:text-wrap max-[400px]:-ml-8 max-[400px]:px-2"
+          }
+        />
       </div>
-      <div className="flex w-[30%] max-md:w-[90%] items-center justify-between justify-self-center pb-10">
+      <div className="flex w-[30%] max-md:w-[90%] items-center justify-between  pb-10">
         <p className="flex items-center text-white font-thicboi-medium text-sm">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +95,7 @@ const Hero = () => {
         playsInline
         preload="metadata"
         loading="lazy"
-        className="w-[60%] rounded-xl justify-self-center mt-5  -mb-80 shadow-xl"
+        className="w-[60%] rounded-xl  mt-5  -mb-80 shadow-xl"
       ></video>
     </div>
   );
